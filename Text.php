@@ -10,7 +10,6 @@ $text = "svarīgi svarīgi ir iemācīties dzīvot mainīgā pasaulē";
 $arr = explode(" ", $text);
 echo "teikuma ir " .count($arr) ." latviešu izcelsmes vārdi \n";
 
-//wtf
 $text = strtolower($text);
 $text = str_replace(',', '', $text);
 $text = str_replace(',', '', $text);
